@@ -1,0 +1,12 @@
+section{
+    width: 1200px;
+    margin: auto;
+    background-color: #c0c0c0;
+}
+
+section article{
+    
+    padding: 10px;
+    width: 1000px;
+    margin: auto;
+}
