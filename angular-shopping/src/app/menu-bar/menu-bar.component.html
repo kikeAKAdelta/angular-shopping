@@ -1,16 +1,16 @@
 <nav>
     <ul>
         <li>
-            <a>Home</a>
+            <a [routerLink]="['/']">Home</a> <!--routing raiz o dinamico-->
         </li>
         <li>
-            <a>Productos</a>
+            <a routerLink="/products">Productos</a> <!--routin estatico-->
         </li>
         <li>
-            <a>Quienes somos</a>
+            <a routerLink="/about">Quienes somos</a>
         </li>
         <li>
-            <a>Ayuda</a>
+            <a routerLink="/contact">Contactanos</a>
         </li>
     </ul>
 </nav>
