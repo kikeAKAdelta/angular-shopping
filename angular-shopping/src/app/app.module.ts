@@ -11,6 +11,8 @@ import { ProductsListComponent } from './products-list/products-list.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
+import { ShoppingService } from './shopping.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +34,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     ])
 
   ],
-  providers: [],
+  providers: [ShoppingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

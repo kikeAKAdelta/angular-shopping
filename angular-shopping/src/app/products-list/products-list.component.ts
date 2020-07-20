@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ShoppingService } from '../shopping.service';
 
 @Component({
     selector: 'products-list',
@@ -6,8 +7,20 @@ import { Component } from '@angular/core';
     styleUrls: ['./products-list.component.css']
 })
 
-export class ProductsListComponent{
+export class ProductsListComponent implements OnInit{
 
-    constructor(){}
+    constructor(private shoppingService: ShoppingService){}
+    products;
+    getProducts(){
+        this.shoppingService.getProducts();
+    }
+
+    ngOnInit(){
+        //esta es la manera de recorrer un JSON
+        this.shoppingService.getProducts().subscribe((data: any) => {
+            console.log(data);
+            this.products = data;
+        });
+    }
 
 }
