@@ -1,0 +1,25 @@
+nav{
+    background-color: aqua;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;  
+    color: #fff;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+nav ul{
+   background-color: crimson;
+   padding: 20px;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    color: #c0c0c0;
+}
