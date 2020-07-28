@@ -10,6 +10,7 @@ import { FootPageComponent } from './foot-page/foot-page.component';
 import { ProductsListComponent } from './products-list/products-list.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ProductListDetailsComponent } from './product-list-details/product-list-details.component';
 
 import { ShoppingService } from './shopping.service';
 
@@ -21,7 +22,8 @@ import { ShoppingService } from './shopping.service';
     FootPageComponent,
     ProductsListComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    ProductListDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { ShoppingService } from './shopping.service';
       {path: '', component: HomeComponent},
       {path: 'products', component: ProductsListComponent},
       {path: 'about', component: AboutUsComponent},
-      {path: 'contact', component: ContactUsComponent}
+      {path: 'contact', component: ContactUsComponent},
+      {path: 'products/:productId', component: ProductListDetailsComponent}
     ])
 
   ],

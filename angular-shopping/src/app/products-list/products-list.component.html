@@ -1,9 +1,13 @@
 
 
-<div *ngFor="let product of products">
+<div *ngFor="let product of products; index as productId">
 
     <p>{{product.name}}</p>
     <img src="{{product.photo_url}}" alt="" width="300px" height="250px">
+
+    <a [title]="'Detalles'" [routerLink]="['/products', productId]">
+        Ver detalles
+    </a>
    
     
     

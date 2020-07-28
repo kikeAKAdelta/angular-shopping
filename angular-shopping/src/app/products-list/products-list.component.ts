@@ -10,7 +10,9 @@ import { ShoppingService } from '../shopping.service';
 export class ProductsListComponent implements OnInit{
 
     constructor(private shoppingService: ShoppingService){}
+
     products;
+    
     getProducts(){
         this.shoppingService.getProducts();
     }
