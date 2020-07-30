@@ -4,7 +4,7 @@ nav{
 
 nav ul li a{
     text-decoration: none;
-    padding: 20px;  
+    padding: 15px;  
     color: #fff;
 }
 
@@ -22,4 +22,5 @@ nav ul{
 nav ul li a:hover{
     cursor: pointer;
     color: #c0c0c0;
+    border-bottom: #71b8ff 5px solid;
 }

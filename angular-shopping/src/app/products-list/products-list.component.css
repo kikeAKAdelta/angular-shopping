@@ -1,0 +1,31 @@
+div a{
+    text-decoration: none;
+    background-color: #0080ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 70px;
+    bottom: 150px;
+}
+
+div .contenedorData{
+    border-bottom: crimson 5px solid;
+    border-radius: 10px;
+}
+
+div a:hover{
+    background-color: #53a9ff;
+}
+
+div {
+    margin: 10px auto;
+    width: 1200px;
+}
+
+div .contenedorData{
+    width: 600px;
+    padding: 10px;
+    
+}
+

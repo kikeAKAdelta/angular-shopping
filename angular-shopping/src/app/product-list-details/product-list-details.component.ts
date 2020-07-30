@@ -4,7 +4,8 @@ import { ShoppingService } from '../shopping.service';
 
 @Component ({
     selector: 'product-list-details',
-    templateUrl: './product-list-details.component.html'
+    templateUrl: './product-list-details.component.html',
+    styleUrls: ['./product-list-details.component.css']
 })
 
 export class ProductListDetailsComponent implements OnInit{

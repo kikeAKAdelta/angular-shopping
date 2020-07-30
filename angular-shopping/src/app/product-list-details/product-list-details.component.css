@@ -1,0 +1,12 @@
+div {
+    margin: 10px auto;
+    width: 1200px;
+}
+
+div .contenedorData{
+    width: 600px;
+    padding: 10px;
+    border-radius: 7px;
+    border-bottom: crimson 5px solid;
+    
+}
